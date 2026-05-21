@@ -2,9 +2,9 @@
 Contributors: athlios
 Tags: world of warcraft, wow, guild, raid, widget
 Requires at least: 6.5
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 8.2
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -38,7 +38,7 @@ Report bugs: https://github.com/Athliara/aths-guild-progress-for-wow/issues
 
 1. Upload the plugin folder to `/wp-content/plugins/aths-guild-progress-for-wow/`.
 2. Activate the plugin from the **Plugins** screen.
-3. Open **Aths Guild Progress** from the left admin menu.
+3. Open **Guild Progress** from the left admin menu.
 4. Enter your Battle.net API credentials and guild details.
 5. Save settings and click **Sync Guild Data**.
 6. Add the **Aths Guild Progress for WoW** widget or use shortcode `[aths_guild_progress]`.
@@ -72,6 +72,14 @@ Raider.IO privacy policy: https://raider.io/privacy-policy
 
 == Changelog ==
 
+= 1.1.2 =
+
+* Updated the tested WordPress version to 7.0.
+
+= 1.1.1 =
+
+* Changed the WordPress admin menu label to **Guild Progress**.
+
 = 1.1.0 =
 
 * Initial public release.
@@ -81,4 +89,4 @@ Raider.IO privacy policy: https://raider.io/privacy-policy
 * Collapsible raid display with per-boss highest difficulty marks (NM/HC/M).
 * Widget and shortcode support.
 * Raid selection and manual progress override settings.
-* Top-level **Aths Guild Progress** admin menu.
+* Top-level **Guild Progress** admin menu.
