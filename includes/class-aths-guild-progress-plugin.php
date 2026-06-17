@@ -761,13 +761,15 @@ final class Aths_Guild_Progress_Plugin
     private function get_raiderio_partition_catalog(): array
     {
         return array(
-            'tier-mn-1' => array(
+            'sporefall' => array(
                 'sporefall' => array(
                     'name' => 'Sporefall',
                     'bosses' => array(
                         array('slug' => 'rotmire', 'name' => 'Rotmire'),
                     ),
                 ),
+            ),
+            'tier-mn-1' => array(
                 'the-voidspire' => array(
                     'name' => 'The Voidspire',
                     'bosses' => array(

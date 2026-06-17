@@ -4,7 +4,7 @@ Tags: world of warcraft, wow, guild, raid, widget
 Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 8.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -72,11 +72,18 @@ Raider.IO privacy policy: https://raider.io/privacy-policy
 
 == Upgrade Notice ==
 
+= 1.2.1 =
+Fixes Sporefall raid progress sync displaying 0/1 progress. Run Sync Guild Data once after updating.
+
 = 1.2.0 =
 
 Sporefall is available in the raid settings. Enable it in **Guild Progress** settings, save, then run **Sync Guild Data** once to display the new raid.
 
 == Changelog ==
+
+= 1.2.1 =
+
+* Fixed Sporefall progress showing 0/1 by separating it in the Raider.IO partition catalog.
 
 = 1.2.0 =
 
