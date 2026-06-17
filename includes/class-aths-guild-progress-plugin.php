@@ -137,6 +137,7 @@ final class Aths_Guild_Progress_Plugin
         array(
             'expansion' => 'Midnight',
             'raids' => array(
+                array('slug' => 'sporefall', 'name' => 'Sporefall'),
                 array('slug' => 'march-on-queldanas', 'name' => "March on Quel'Danas"),
                 array('slug' => 'the-voidspire', 'name' => 'The Voidspire'),
                 array('slug' => 'the-dreamrift', 'name' => 'The Dreamrift'),
@@ -761,6 +762,12 @@ final class Aths_Guild_Progress_Plugin
     {
         return array(
             'tier-mn-1' => array(
+                'sporefall' => array(
+                    'name' => 'Sporefall',
+                    'bosses' => array(
+                        array('slug' => 'rotmire', 'name' => 'Rotmire'),
+                    ),
+                ),
                 'the-voidspire' => array(
                     'name' => 'The Voidspire',
                     'bosses' => array(
@@ -1130,6 +1137,9 @@ final class Aths_Guild_Progress_Plugin
     {
         $raidSlug = $this->resolve_catalog_raid_slug($raidSlug);
         $map = array(
+            'sporefall' => array(
+                'Rotmire',
+            ),
             'the-voidspire' => array(
                 'Imperator Averzian',
                 'Vorasius',

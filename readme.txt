@@ -4,7 +4,7 @@ Tags: world of warcraft, wow, guild, raid, widget
 Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 8.2
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,7 +70,20 @@ Raider.IO is used as a fallback source for public guild raid progression when Ba
 Raider.IO terms: https://raider.io/terms-of-use
 Raider.IO privacy policy: https://raider.io/privacy-policy
 
+== Upgrade Notice ==
+
+= 1.2.0 =
+
+Sporefall is available in the raid settings. Enable it in **Guild Progress** settings, save, then run **Sync Guild Data** once to display the new raid.
+
 == Changelog ==
+
+= 1.2.0 =
+
+* Added Sporefall raid support for Midnight Patch 12.0.7.
+* Added Rotmire as the Sporefall boss for fallback and manual override displays.
+* Added a Sporefall background for the public raid progress display.
+* To display Sporefall after updating, enable it in **Guild Progress** settings, save, then run **Sync Guild Data** once.
 
 = 1.1.2 =
 
